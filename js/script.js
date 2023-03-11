@@ -6,8 +6,12 @@ const memoryScore = document.getElementById('memory-score');
 const verbalScore = document.getElementById('verbal-score');
 const visualScore = document.getElementById('visual-score');
 
+const proxyUrl = 'https://cors-anywhere.herokuapp.com/';
+const url = '/js/data.json';
+const apiUrl = proxyUrl + url;
+
 async function getJson() {
-  const response = await fetch('/js/data.json');
+  const response = await fetch(apiUrl);
   const data = await response.json();
   const reactionObject = data[0];
   const memoryObject = data[1];
