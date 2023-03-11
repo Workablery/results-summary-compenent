@@ -7,7 +7,7 @@ const verbalScore = document.getElementById('verbal-score');
 const visualScore = document.getElementById('visual-score');
 
 async function getJson() {
-  const response = await fetch('../js/data.json');
+  const response = await fetch('/js/data.json');
   const data = await response.json();
   const reactionObject = data[0];
   const memoryObject = data[1];
