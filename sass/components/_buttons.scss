@@ -1,0 +1,20 @@
+/* ********** */
+/* COMPONENTS - BUTTONS */
+/* ********** */
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  background: linear-gradient(hsl(224, 30%, 27%), hsl(224, 30%, 27%));
+  padding: 1.8rem;
+  border-radius: 10rem;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+}
+
+.btn:hover,
+.btn:active {
+  background: $result-container-color;
+}

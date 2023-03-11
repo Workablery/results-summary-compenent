@@ -1,0 +1,145 @@
+/* ********** */
+/* PAGES - HOME */
+/* ********** */
+
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 51.2rem;
+  background-color: $background-card-color;
+  border-radius: 3.2rem;
+  @include bp {
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+}
+
+.result-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  max-width: 36.8rem;
+  background: $result-container-color;
+  border-radius: 3.2rem;
+  padding: 4.6rem 7rem;
+  @include bp {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    max-width: 100vh;
+    padding: 4.6rem 5rem;
+    gap: 2.4rem;
+  }
+  @include bp375px {
+    min-height: 35.6rem;
+    gap: initial;
+  }
+}
+
+.result-heading {
+  color: $light-blue;
+}
+
+.result-caps {
+  height: 20rem;
+  width: 20rem;
+  border-radius: 10rem;
+  background: $result-caps;
+  @include bp375px {
+    height: 14rem;
+    width: 14rem;
+  }
+}
+
+.result-caps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.summary-container {
+  display: flex;
+  flex-direction: column;
+  padding: 4.6rem 4rem;
+  justify-content: space-between;
+  max-width: 36.8rem;
+  @include bp {
+    max-width: 100vh;
+    gap: 2.4rem;
+  }
+}
+
+.summary-heading {
+  color: $dark-gray-blue;
+}
+
+.score-container {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  gap: 1.6rem;
+}
+
+.summary-item {
+  display: flex;
+  justify-content: space-between;
+  flex: 1 1 0;
+  padding: 1.8rem ;
+  border-radius: 1.2rem;
+}
+
+.score-tag {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.reaction {
+  background-color: #FFF6F6;
+}
+
+.reaction-tag {
+  color: hsl(0, 100%, 67%);
+}
+
+.memory {
+  background-color: #FFFBF4;
+}
+
+.memory-tag {
+  color: hsl(39, 100%, 56%);
+}
+
+.verbal {
+  background-color: #F2FCF9;
+}
+
+.verbal-tag {
+  color: hsl(166, 100%, 37%);
+}
+
+.visual {
+  background-color: #F3F4FD;
+}
+
+.visual-tag {
+  color:  hsl(234, 85%, 45%);
+}
+
+.attribution {
+  font-size: 11px; text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

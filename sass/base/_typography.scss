@@ -1,0 +1,75 @@
+/* ********** */
+/* GENERAL SETTINGS - TYPOGRAPHY */
+/* ********** */
+
+body {
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-size: 1.8rem;
+}
+
+h2 {
+  font-size: $heading-m;
+  font-weight: 700;
+  @include bp375px {
+    font-size: 1.8rem;
+  }
+}
+
+h3 {
+  color: white;
+  font-size: $heading-l;
+  font-weight: 700;
+  @include bp375px {
+    font-size: 2.4rem;
+  }
+}
+
+h4 {
+  display: inline-block;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+p {
+  color: $light-blue;
+  text-align: center;
+  font-weight: 500;
+  @include bp375px {
+    font-size: 1.6rem;
+  }
+}
+
+.result-heading {
+  color: hsl(241, 100%, 89%);
+}
+
+
+.result-score {
+  font-size: $heading-xl;
+  color: white;
+  font-weight: 800;
+  @include bp375px {
+    font-size: 5.6rem;
+  }
+}
+
+.result-unit {
+  color: $light-blue;
+  font-weight: 700;
+  opacity: 51.68%;
+  @include bp375px {
+    font-size: 1.6rem;
+  }
+}
+
+.score-amount {
+  font-weight: 700;
+  color: $dark-gray-blue;
+  margin-right: 0.5rem;
+}
+
+.score-unit {
+  font-weight: 700;
+  color: $dark-gray-blue;
+  opacity: 50%;
+}

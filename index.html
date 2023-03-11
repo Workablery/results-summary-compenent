@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon-32x32.png">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Results summary component</title>
+</head>
+<body>
+<main>
+  <section class="hero-section">
+    <div class="card-container">
+      <div class="result-container">
+          <h2 class="result-heading">
+            Your Result
+          </h2>
+        <div class="result-caps">
+          <span class="result-score">
+            76
+          </span>
+          <span class="result-unit">
+            of 100
+          </span>
+        </div>
+        <h3>
+          Great
+        </h3>
+        <p>
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+        <div class="summary-container">
+          <h2 class="summary-heading">
+            Summary
+          </h2>
+          <div class="score-container">
+            <div class="summary-item reaction">
+              <div class="score-tag">
+                <img src="assets/img/icon-reaction.svg" alt="reaction icon">
+                <h4 class="reaction-tag">
+                  Reaction
+                </h4>
+              </div>
+              <div class="score">
+                <span class="score-amount" id="reaction-score">
+                  80
+                </span>
+                <span class="score-unit">
+                  / 100
+                </span>
+              </div>
+            </div>
+            <div class="summary-item memory">
+              <div class="score-tag">
+                <img src="assets/img/icon-memory.svg" alt="memory icon">
+                <h4 class="memory-tag">
+                  Memory
+                </h4>
+              </div>
+              <div class="score">
+                <span class="score-amount" id="memory-score">
+                  92
+                </span>
+                <span class="score-unit">
+                  / 100
+                </span>
+              </div>
+            </div>
+            <div class="summary-item verbal">
+              <div class="score-tag">
+                <img src="assets/img/icon-verbal.svg" alt="verbal icon">
+                <h4 class="verbal-tag">
+                  Verbal
+                </h4>
+              </div>
+              <div class="score">
+                <span class="score-amount" id="verbal-score">
+                  61
+                </span>
+                <span class="score-unit">
+                  / 100
+                </span>
+              </div>
+            </div>
+            <div class="summary-item visual">
+                <div class="score-tag">
+                  <img src="assets/img/icon-visual.svg" alt="visual icon">
+                  <h4 class="visual-tag">
+                    Visual
+                  </h4>
+                </div>
+                <div class="score">
+                  <span class="score-amount" id="visual-score">
+                    72
+                  </span>
+                  <span class="score-unit">
+                    / 100
+                  </span>
+                </div>
+              </div>
+          </div>
+          <a class="btn" href="#">
+            Continue
+          </a>
+        </div>
+    </div>
+  </section>
+<!--  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>
+    Coded by <a href="#">Grégory Locigno - Workablery</a>
+  </div>-->
+</main>
+<script src="/js/script.js"></script>
+</body>
+</html>

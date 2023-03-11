@@ -1,0 +1,11 @@
+@mixin bp {
+  @media screen and (max-width: 40em) {
+    @content
+  }
+}
+
+@mixin bp375px {
+  @media screen and (max-width: 23.5em) {
+    @content
+  }
+}
