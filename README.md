@@ -6,7 +6,7 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 
 ## **Preview**
 
-![](\design\results-summary-compenent-overview.png)
+![](..\design\results-summary-compenent-overview.png)
 
 ## **Links**
 
@@ -62,7 +62,7 @@ async function getJson() {
 
 <div>
 
-<a href="https://github.com/gregorylocigno">
+<a href="https://github.com/gregorylocigno" target="_blank">
 	<img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white
 " alt="GitHub profil">
   </a> &nbsp;&nbsp;&nbsp;
