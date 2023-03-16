@@ -6,12 +6,12 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 
 ## **Preview**
 
-![](..\design\results-summary-compenent-overview.png)
+![](preview.jpg)
 
-## **Links**
+## :link: **Links**
 
-- Solution URL: :floppy_disk: [GitHub Repository](https://github.com/gregorylocigno/results-summary-compenent)
-- Live Site URL: :link: [Live Page](https://gregorylocigno.github.io/results-summary-compenent/)
+- :floppy_disk: [GitHub Repository](https://github.com/gregorylocigno/results-summary-compenent)
+- :earth_africa:  [Live Page](https://gregorylocigno.github.io/results-summary-compenent/)
 
 
 ## **The challenge**
@@ -33,13 +33,14 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
 
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
 ![WebStorm](https://img.shields.io/badge/webstorm-143?style=for-the-badge&logo=webstorm&logoColor=white&color=black)
 
 ## What I learned
 
-This was my first time fetching a JSON file.
+It was my first time fetching a JSON file.
 
 Here's the gist of what I learned in Javascript:
 
@@ -60,12 +61,4 @@ async function getJson() {
 
 ## Author
 
-<div>
-
-<a href="https://github.com/gregorylocigno" target="_blank">
-	<img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white
-" alt="GitHub profil">
-  </a> &nbsp;&nbsp;&nbsp;
-
-
-</div>
+[GitHub Profile](https://github.com/gregorylocigno)
